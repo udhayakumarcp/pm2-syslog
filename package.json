@@ -1,0 +1,50 @@
+{
+  "name": "pm2-rsyslog",
+  "version": "1.0.0",
+  "description": "PM2 syslog Module",
+  "main": "app.js",
+  "dependencies": {
+    "ain2": "^3.0.0",
+    "pm2": "^5.4.2",
+    "pmx": "beta"
+  },
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
+  "engines": {
+    "node": ">=14.21.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udhayakumarcp/pm2-syslog.git"
+  },
+  "keywords": [
+    "pm2",
+    "syslog",
+    "rsyslog",
+    "log",
+    "logger",
+    "linux"
+  ],
+  "author": "Udhayakumar <udhaykumarcp@mail.com> (https://udhay.dev) ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udhayakumarcp/pm2-syslog/issues"
+  },
+  "homepage": "https://github.com/udhayakumarcp/pm2-syslog#readme",
+  "contributors": [
+    {
+      "name": "Udhayakumar",
+      "email": "udhaykumarcp@gmail.com",
+      "url": "https://udhay.dev"
+    }
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/udhayakumarcp"
+  }
+}
