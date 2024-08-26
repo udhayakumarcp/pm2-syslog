@@ -12,7 +12,7 @@ pm2 install pm2-rsyslog
 
 ## Delete module
 
-To install the module, run the below command.
+To delete the module, run the below command.
 
 ```bash
 pm2 delete pm2-rsyslog
